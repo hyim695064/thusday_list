@@ -46,3 +46,9 @@ print(d1|d2)
 value = define_scores.pop("bravo")
 print(value)
 print(define_scores)
+value = define_scores.pop("delta", "not found")
+#מה שעשיתי עכשיו , בעצם מכיון שאיו את המפתח הזה אז הוא מדפיס לי את הרך שלו
+print(value)
+#ןכאן מכיון שהוא לא מפתח קיים אז לא השתנה כלום . אבל אם הוא היה קיים 
+#הפלט בהדפסה הראשונה היה אותו דבר אבל בשני הוא היה נמחק
+print(define_scores)
