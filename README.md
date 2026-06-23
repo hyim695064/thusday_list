@@ -1,0 +1,1 @@
+# thusday_list
