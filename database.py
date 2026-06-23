@@ -41,4 +41,8 @@ print(config)
 d1 = {"a": 1, "b": 2}
 d2 = {"b": 3, "c": 4}
 d1|d2
+#זה מחבר את שני המילונים ומוחק אם יש שני מפתחות זהים, אחד מהם או שזה השמאלי או שזה היותר קטן
 print(d1|d2)
+value = define_scores.pop("bravo")
+print(value)
+print(define_scores)
