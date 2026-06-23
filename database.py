@@ -33,4 +33,12 @@ print(copy_define_scores)
 
 config = {}
 config.setdefault("timeout", 30,)
+#עשיתי רשימה חדשה ריקה והכנסתי לתוכה זוג
 print(config)
+config.setdefault("timeout", 50)
+#ניסיון לשנות את הערך שהכנסתי ראשון
+print(config)
+d1 = {"a": 1, "b": 2}
+d2 = {"b": 3, "c": 4}
+d1|d2
+print(d1|d2)
