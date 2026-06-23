@@ -18,5 +18,8 @@ define_scores = {"alpha": 80,
 "bravo": 95, "charlie": 70}
 max_num = max(define_scores, key=define_scores.get)
 print(max_num)
-copy_define_scores =define_scores["alpha"] = 80
+print(define_scores)
+copy_define_scores = define_scores.copy()
+print(copy_define_scores)
+copy_define_scores["alpha"] = 75
 print(copy_define_scores)
